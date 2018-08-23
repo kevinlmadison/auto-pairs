@@ -408,7 +408,7 @@ function! AutoPairsReturn()
       return "\<ESC>".cmd."k==o"
     else
       "return "\<ESC>".cmd."ko\t"
-      return "\<ESC>".cmd."\<SPACE>"
+      return "\<ESC>".cmd."ko\<SPACE>\<SPACE>\<SPACE>\<SPACE>"
     endif
   end
   return ''
